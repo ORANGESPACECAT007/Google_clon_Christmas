@@ -1,0 +1,198 @@
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-right-section{
+    width: 300px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.nav-right-section a{
+    margin-right: 30px;
+    color: #5f6368;
+}
+
+nav .nav-right-section img{
+    border-radius: 90px;
+    width: 40px;
+    height: 40px;
+    margin-left: 25px;
+}
+
+nav .nav-right-section .menu-icon{
+    background-image: url(Imagenes/Icon.PNG);
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: none;
+}
+
+main{
+    margin-top: 30px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+main .main-logo img{
+    width: 300px;
+    height: 100px;
+}
+
+main .main-input{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+
+main .main-input input{
+    width: 440px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container {
+    width: 520px;
+    border: 1px 
+     100px;
+    border-color: #c5c6c7;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: double;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #000001;
+}
+
+main .main-input .lupa{
+    background-image: url(Imagenes/Lupa.PNG);
+    width: 18px;
+    height: 18px;
+    padding-left: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-input .cam-icon{
+    background-image: url(Imagenes/Camera3.PNG);
+    width: 24px;
+    height: 24px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-input .micro-icon{
+    background-image: url(Imagenes/Microphone2.PNG);
+    width: 35px;
+    height: 35px;
+    padding-left: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 36px;
+    background-color: aliceblue;
+    border: 0;
+    font-size: 15px;
+    color: #626263;
+    padding: 0 15px;
+    border-radius: 7px;
+    padding: 0 15px;
+    margin-right: 13px;
+}
+
+main .main-buttons button:hover{
+    border: 1px solid #c5c6c7;
+    box-shadow: 0 0.5px 1px 0 #000001;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 16px;
+    border-top: 2px #5f6368;
+}
+
+footer ul{
+    margin: 11px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-self: left;
+}
+
+footer .footer-right{
+    justify-self: right;
+}
+
+footer li{
+    margin-left: 15px;
+    color: #5f6368;
+}
+
+footer a{
+    color: #000001;
+}
+
+/*.menu-icon*/
+
